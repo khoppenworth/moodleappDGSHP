@@ -1,21 +1,24 @@
 /*
- * App CUSTOM theme SCSS
- * ----------------------------------------------------------------------------
- * Place here custom styles.
+ * DGSHP e-Learning custom styles.
  */
 
-/*
- * Light Theme
- * -------------------------------------------
- */
 :root {
-
+    --dgshp-health-green: #0b7a75;
+    --dgshp-health-blue: #0b5cad;
+    --dgshp-health-mint: #f4fbf9;
+    --dgshp-health-gold: #f2c94c;
 }
 
-/*
- * Dark Theme
- * -------------------------------------------
- */
-:root.dark {
+core-site-logo img,
+.core-login-site-logo img.login-logo {
+    object-fit: contain;
+}
 
+.core-login-site-logo {
+    background: linear-gradient(135deg, rgba(11, 122, 117, .08), rgba(11, 92, 173, .08));
+    border-radius: 24px;
+}
+
+:root.dark {
+    --dgshp-health-mint: #102321;
 }
