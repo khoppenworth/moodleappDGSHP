@@ -1,14 +1,13 @@
 {
-    "name": "moodlemobile",
+    "name": "dgshp-elearning",
     "version": "5.2.0",
-    "description": "The official app for Moodle.",
+    "description": "Branded Moodle App for DGSHP e-Learning.",
     "author": {
-        "name": "Moodle Pty Ltd.",
-        "email": "mobile@moodle.com"
+        "name": "Direction Générale de la Santé et de l'Hygiène Publique, Mali"
     },
     "repository": {
         "type": "git",
-        "url": "https://github.com/moodlehq/moodleapp.git"
+        "url": "https://github.com/khoppenworth/moodleappDGSHP.git"
     },
     "license": "Apache-2.0",
     "licenses": [
@@ -212,7 +211,7 @@
             "cordova-plugin-badge": {},
             "cordova-plugin-chooser": {},
             "cordova-plugin-customurlscheme": {
-                "URL_SCHEME": "moodlemobile",
+                "URL_SCHEME": "dgshpelearning",
                 "ANDROID_SCHEME": " ",
                 "ANDROID_HOST": " ",
                 "ANDROID_PATHPREFIX": "/"

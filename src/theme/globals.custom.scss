@@ -1,5 +1,15 @@
 /*
- * App Custom App variables SCSS
- * ----------------------------------------------------------------------------
- * Place here all custom app variables.
+ * DGSHP e-Learning custom variables.
+ *
+ * These variables keep the Moodle App theme structure intact while applying a
+ * clean public-health palette for the Direction Générale de la Santé et de
+ * l'Hygiène Publique, Mali.
  */
+
+$brand-color: #0b7a75 !default;
+$primary: #0b7a75 !default;
+$primary-dark: #4fd1c5 !default;
+$secondary: #0b5cad !default;
+$success: #2f855a !default;
+$info: #0b5cad !default;
+$core-login-button-outline: false !default;
